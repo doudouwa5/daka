@@ -1,0 +1,6 @@
+framework module Pods_dakaTests {
+  umbrella header "Pods-dakaTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

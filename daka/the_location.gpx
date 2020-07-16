@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gpx version="1.1"
+    creator="GMapToGPX 6.4j - http://www.elsewhere.org/GMapToGPX/"
+    xmlns="http://www.topografix.com/GPX/1/1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<!--    <wpt lat="39.954642" lon="116.367639">-->
+<!--    <wpt lat="23.20" lon="113.30">-->
+
+<!--    东经 113.23 北纬 23.16 东莞-->
+<!--    <wpt lat="23.052129" lon="113.751923">-->
+
+<!--    时代集团-->
+<!--    <wpt lat="40.03600" lon="116.300060">-->
+
+
+<!--    广州-->
+<!--    <wpt lat="23.13" lon="113.27">-->
+
+<!--泾阳县-->
+
+<!--    <wpt lat="34.5479939699" lon="108.9468302715">-->
+
+
+<!--杭州-->
+<!--    <wpt lat="30.26" lon="120.19">-->
+
+<!--台州-->
+
+<!--        <wpt lat="28.68" lon="121.43">-->
+
+<!--上海-->
+<!--        <wpt lat="31.23" lon="121.47">-->
+
+<!--泰国曼谷-->
+<!--        <wpt lat="13.540798669342463" lon="100.46884049389647">-->
+
+<!--望京soho-->
+<!--        <wpt lat="39.9954206200" lon="116.4762780200">-->
+
+<!--小步-->
+<wpt lat="39.9814707" lon="116.384267">
+
+    </wpt>
+</gpx>

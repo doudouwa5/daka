@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82DA290124A9A2A90075EA13 /* HDDNetworkClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DA290024A9A2A90075EA13 /* HDDNetworkClient.m */; };
+		AA8DB709636FC9E1E998F88B /* Pods_daka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9A7D548B85C947BE00385AF /* Pods_daka.framework */; };
+		B1C55C0F6036A52E4321B2B2 /* Pods_dakaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DECA1B849B4C1A6B6EBA01 /* Pods_dakaTests.framework */; };
+		E99B38251F906BE4009BE194 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E99B38241F906BE4009BE194 /* main.m */; };
+		E99B38281F906BE4009BE194 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E99B38271F906BE4009BE194 /* AppDelegate.m */; };
+		E99B382B1F906BE4009BE194 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E99B382A1F906BE4009BE194 /* ViewController.m */; };
+		E99B382E1F906BE4009BE194 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E99B382C1F906BE4009BE194 /* Main.storyboard */; };
+		E99B38301F906BE4009BE194 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E99B382F1F906BE4009BE194 /* Assets.xcassets */; };
+		E99B38331F906BE4009BE194 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E99B38311F906BE4009BE194 /* LaunchScreen.storyboard */; };
+		E99B383E1F906BE5009BE194 /* dakaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E99B383D1F906BE5009BE194 /* dakaTests.m */; };
+		E99B38491F906BE5009BE194 /* dakaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E99B38481F906BE5009BE194 /* dakaUITests.m */; };
+		E99B38571F906BFC009BE194 /* the_location.gpx in Resources */ = {isa = PBXBuildFile; fileRef = E99B38561F906BFC009BE194 /* the_location.gpx */; };
+		E99B385A1F90B7C0009BE194 /* HDDTextFiled.m in Sources */ = {isa = PBXBuildFile; fileRef = E99B38591F90B7C0009BE194 /* HDDTextFiled.m */; };
+		EB19175D6DE898BE9A126B51 /* Pods_daka_dakaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C864C48C4A16C22741665A0 /* Pods_daka_dakaUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E99B383A1F906BE5009BE194 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E99B38181F906BE4009BE194 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E99B381F1F906BE4009BE194;
+			remoteInfo = daka;
+		};
+		E99B38451F906BE5009BE194 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E99B38181F906BE4009BE194 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E99B381F1F906BE4009BE194;
+			remoteInfo = daka;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C864C48C4A16C22741665A0 /* Pods_daka_dakaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_daka_dakaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DCBA02790CA5EB318C0BB55 /* Pods-dakaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dakaTests.debug.xcconfig"; path = "Target Support Files/Pods-dakaTests/Pods-dakaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		66DECA1B849B4C1A6B6EBA01 /* Pods_dakaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dakaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B008B14D8501E9820A0DB04 /* Pods-daka.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-daka.debug.xcconfig"; path = "Target Support Files/Pods-daka/Pods-daka.debug.xcconfig"; sourceTree = "<group>"; };
+		7D1F6798020A744B892CA809 /* Pods-dakaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dakaTests.release.xcconfig"; path = "Target Support Files/Pods-dakaTests/Pods-dakaTests.release.xcconfig"; sourceTree = "<group>"; };
+		82DA28FF24A9A2A90075EA13 /* HDDNetworkClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDDNetworkClient.h; sourceTree = "<group>"; };
+		82DA290024A9A2A90075EA13 /* HDDNetworkClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDDNetworkClient.m; sourceTree = "<group>"; };
+		B68A6C9AE80D2AB72A0126F2 /* Pods-daka-dakaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-daka-dakaUITests.debug.xcconfig"; path = "Target Support Files/Pods-daka-dakaUITests/Pods-daka-dakaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C9A7D548B85C947BE00385AF /* Pods_daka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_daka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D78B911058280B1131535BF9 /* Pods-daka-dakaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-daka-dakaUITests.release.xcconfig"; path = "Target Support Files/Pods-daka-dakaUITests/Pods-daka-dakaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DEB62F62B5C668BCE7613FE4 /* Pods-daka.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-daka.release.xcconfig"; path = "Target Support Files/Pods-daka/Pods-daka.release.xcconfig"; sourceTree = "<group>"; };
+		E99B38201F906BE4009BE194 /* daka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = daka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E99B38241F906BE4009BE194 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E99B38261F906BE4009BE194 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E99B38271F906BE4009BE194 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E99B38291F906BE4009BE194 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E99B382A1F906BE4009BE194 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E99B382D1F906BE4009BE194 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E99B382F1F906BE4009BE194 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E99B38321F906BE4009BE194 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E99B38341F906BE4009BE194 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E99B38391F906BE5009BE194 /* dakaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dakaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E99B383D1F906BE5009BE194 /* dakaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dakaTests.m; sourceTree = "<group>"; };
+		E99B383F1F906BE5009BE194 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E99B38441F906BE5009BE194 /* dakaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dakaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E99B38481F906BE5009BE194 /* dakaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dakaUITests.m; sourceTree = "<group>"; };
+		E99B384A1F906BE5009BE194 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E99B38561F906BFC009BE194 /* the_location.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = the_location.gpx; sourceTree = "<group>"; };
+		E99B38581F90B7C0009BE194 /* HDDTextFiled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDDTextFiled.h; sourceTree = "<group>"; };
+		E99B38591F90B7C0009BE194 /* HDDTextFiled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDDTextFiled.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E99B381D1F906BE4009BE194 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA8DB709636FC9E1E998F88B /* Pods_daka.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E99B38361F906BE5009BE194 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1C55C0F6036A52E4321B2B2 /* Pods_dakaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E99B38411F906BE5009BE194 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB19175D6DE898BE9A126B51 /* Pods_daka_dakaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CFB52609B420788B850229A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9A7D548B85C947BE00385AF /* Pods_daka.framework */,
+				3C864C48C4A16C22741665A0 /* Pods_daka_dakaUITests.framework */,
+				66DECA1B849B4C1A6B6EBA01 /* Pods_dakaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82DA28FE24A9A2300075EA13 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				82DA28FF24A9A2A90075EA13 /* HDDNetworkClient.h */,
+				82DA290024A9A2A90075EA13 /* HDDNetworkClient.m */,
+			);
+			name = NetWork;
+			sourceTree = "<group>";
+		};
+		B03F7B135DEFCAD7F9CAC4B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B008B14D8501E9820A0DB04 /* Pods-daka.debug.xcconfig */,
+				DEB62F62B5C668BCE7613FE4 /* Pods-daka.release.xcconfig */,
+				B68A6C9AE80D2AB72A0126F2 /* Pods-daka-dakaUITests.debug.xcconfig */,
+				D78B911058280B1131535BF9 /* Pods-daka-dakaUITests.release.xcconfig */,
+				4DCBA02790CA5EB318C0BB55 /* Pods-dakaTests.debug.xcconfig */,
+				7D1F6798020A744B892CA809 /* Pods-dakaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E99B38171F906BE4009BE194 = {
+			isa = PBXGroup;
+			children = (
+				E99B38221F906BE4009BE194 /* daka */,
+				E99B383C1F906BE5009BE194 /* dakaTests */,
+				E99B38471F906BE5009BE194 /* dakaUITests */,
+				E99B38211F906BE4009BE194 /* Products */,
+				B03F7B135DEFCAD7F9CAC4B4 /* Pods */,
+				5CFB52609B420788B850229A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E99B38211F906BE4009BE194 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E99B38201F906BE4009BE194 /* daka.app */,
+				E99B38391F906BE5009BE194 /* dakaTests.xctest */,
+				E99B38441F906BE5009BE194 /* dakaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E99B38221F906BE4009BE194 /* daka */ = {
+			isa = PBXGroup;
+			children = (
+				82DA28FE24A9A2300075EA13 /* NetWork */,
+				E99B38261F906BE4009BE194 /* AppDelegate.h */,
+				E99B38271F906BE4009BE194 /* AppDelegate.m */,
+				E99B38291F906BE4009BE194 /* ViewController.h */,
+				E99B382A1F906BE4009BE194 /* ViewController.m */,
+				E99B38581F90B7C0009BE194 /* HDDTextFiled.h */,
+				E99B38591F90B7C0009BE194 /* HDDTextFiled.m */,
+				E99B38561F906BFC009BE194 /* the_location.gpx */,
+				E99B382F1F906BE4009BE194 /* Assets.xcassets */,
+				E99B38231F906BE4009BE194 /* Supporting Files */,
+			);
+			path = daka;
+			sourceTree = "<group>";
+		};
+		E99B38231F906BE4009BE194 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E99B382C1F906BE4009BE194 /* Main.storyboard */,
+				E99B38311F906BE4009BE194 /* LaunchScreen.storyboard */,
+				E99B38341F906BE4009BE194 /* Info.plist */,
+				E99B38241F906BE4009BE194 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E99B383C1F906BE5009BE194 /* dakaTests */ = {
+			isa = PBXGroup;
+			children = (
+				E99B383D1F906BE5009BE194 /* dakaTests.m */,
+				E99B383F1F906BE5009BE194 /* Info.plist */,
+			);
+			path = dakaTests;
+			sourceTree = "<group>";
+		};
+		E99B38471F906BE5009BE194 /* dakaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E99B38481F906BE5009BE194 /* dakaUITests.m */,
+				E99B384A1F906BE5009BE194 /* Info.plist */,
+			);
+			path = dakaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E99B381F1F906BE4009BE194 /* daka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E99B384D1F906BE5009BE194 /* Build configuration list for PBXNativeTarget "daka" */;
+			buildPhases = (
+				B883A7871F1FFBE0413AB55B /* [CP] Check Pods Manifest.lock */,
+				E99B381C1F906BE4009BE194 /* Sources */,
+				E99B381D1F906BE4009BE194 /* Frameworks */,
+				E99B381E1F906BE4009BE194 /* Resources */,
+				5679E268016D25582E2DEC69 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = daka;
+			productName = daka;
+			productReference = E99B38201F906BE4009BE194 /* daka.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E99B38381F906BE5009BE194 /* dakaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E99B38501F906BE5009BE194 /* Build configuration list for PBXNativeTarget "dakaTests" */;
+			buildPhases = (
+				F792FB88B723D3B99FA5E48D /* [CP] Check Pods Manifest.lock */,
+				E99B38351F906BE5009BE194 /* Sources */,
+				E99B38361F906BE5009BE194 /* Frameworks */,
+				E99B38371F906BE5009BE194 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E99B383B1F906BE5009BE194 /* PBXTargetDependency */,
+			);
+			name = dakaTests;
+			productName = dakaTests;
+			productReference = E99B38391F906BE5009BE194 /* dakaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E99B38431F906BE5009BE194 /* dakaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E99B38531F906BE5009BE194 /* Build configuration list for PBXNativeTarget "dakaUITests" */;
+			buildPhases = (
+				C47124654797C1F607FF5DBD /* [CP] Check Pods Manifest.lock */,
+				E99B38401F906BE5009BE194 /* Sources */,
+				E99B38411F906BE5009BE194 /* Frameworks */,
+				E99B38421F906BE5009BE194 /* Resources */,
+				D86B3E50DD7D954F11C32927 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E99B38461F906BE5009BE194 /* PBXTargetDependency */,
+			);
+			name = dakaUITests;
+			productName = dakaUITests;
+			productReference = E99B38441F906BE5009BE194 /* dakaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E99B38181F906BE4009BE194 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "杨林贵";
+				TargetAttributes = {
+					E99B381F1F906BE4009BE194 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 6XX8659PN2;
+						ProvisioningStyle = Automatic;
+					};
+					E99B38381F906BE5009BE194 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 6XX8659PN2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E99B381F1F906BE4009BE194;
+					};
+					E99B38431F906BE5009BE194 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 6XX8659PN2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E99B381F1F906BE4009BE194;
+					};
+				};
+			};
+			buildConfigurationList = E99B381B1F906BE4009BE194 /* Build configuration list for PBXProject "daka" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = E99B38171F906BE4009BE194;
+			productRefGroup = E99B38211F906BE4009BE194 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E99B381F1F906BE4009BE194 /* daka */,
+				E99B38381F906BE5009BE194 /* dakaTests */,
+				E99B38431F906BE5009BE194 /* dakaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E99B381E1F906BE4009BE194 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E99B38331F906BE4009BE194 /* LaunchScreen.storyboard in Resources */,
+				E99B38301F906BE4009BE194 /* Assets.xcassets in Resources */,
+				E99B38571F906BFC009BE194 /* the_location.gpx in Resources */,
+				E99B382E1F906BE4009BE194 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E99B38371F906BE5009BE194 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E99B38421F906BE5009BE194 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5679E268016D25582E2DEC69 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-daka/Pods-daka-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-daka/Pods-daka-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B883A7871F1FFBE0413AB55B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-daka-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C47124654797C1F607FF5DBD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-daka-dakaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D86B3E50DD7D954F11C32927 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-daka-dakaUITests/Pods-daka-dakaUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-daka-dakaUITests/Pods-daka-dakaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F792FB88B723D3B99FA5E48D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dakaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E99B381C1F906BE4009BE194 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E99B382B1F906BE4009BE194 /* ViewController.m in Sources */,
+				E99B38281F906BE4009BE194 /* AppDelegate.m in Sources */,
+				E99B385A1F90B7C0009BE194 /* HDDTextFiled.m in Sources */,
+				82DA290124A9A2A90075EA13 /* HDDNetworkClient.m in Sources */,
+				E99B38251F906BE4009BE194 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E99B38351F906BE5009BE194 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E99B383E1F906BE5009BE194 /* dakaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E99B38401F906BE5009BE194 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E99B38491F906BE5009BE194 /* dakaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E99B383B1F906BE5009BE194 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E99B381F1F906BE4009BE194 /* daka */;
+			targetProxy = E99B383A1F906BE5009BE194 /* PBXContainerItemProxy */;
+		};
+		E99B38461F906BE5009BE194 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E99B381F1F906BE4009BE194 /* daka */;
+			targetProxy = E99B38451F906BE5009BE194 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E99B382C1F906BE4009BE194 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E99B382D1F906BE4009BE194 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E99B38311F906BE4009BE194 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E99B38321F906BE4009BE194 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E99B384B1F906BE5009BE194 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E99B384C1F906BE5009BE194 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E99B384E1F906BE5009BE194 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B008B14D8501E9820A0DB04 /* Pods-daka.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6XX8659PN2;
+				INFOPLIST_FILE = daka/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yjoo.testDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		E99B384F1F906BE5009BE194 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEB62F62B5C668BCE7613FE4 /* Pods-daka.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6XX8659PN2;
+				INFOPLIST_FILE = daka/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yjoo.testDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		E99B38511F906BE5009BE194 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DCBA02790CA5EB318C0BB55 /* Pods-dakaTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				DEVELOPMENT_TEAM = 6XX8659PN2;
+				INFOPLIST_FILE = dakaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = guodiantong.dakaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/daka.app/daka";
+			};
+			name = Debug;
+		};
+		E99B38521F906BE5009BE194 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D1F6798020A744B892CA809 /* Pods-dakaTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				DEVELOPMENT_TEAM = 6XX8659PN2;
+				INFOPLIST_FILE = dakaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = guodiantong.dakaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/daka.app/daka";
+			};
+			name = Release;
+		};
+		E99B38541F906BE5009BE194 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B68A6C9AE80D2AB72A0126F2 /* Pods-daka-dakaUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6XX8659PN2;
+				INFOPLIST_FILE = dakaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = guodiantong.dakaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = daka;
+			};
+			name = Debug;
+		};
+		E99B38551F906BE5009BE194 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D78B911058280B1131535BF9 /* Pods-daka-dakaUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6XX8659PN2;
+				INFOPLIST_FILE = dakaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = guodiantong.dakaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = daka;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E99B381B1F906BE4009BE194 /* Build configuration list for PBXProject "daka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E99B384B1F906BE5009BE194 /* Debug */,
+				E99B384C1F906BE5009BE194 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E99B384D1F906BE5009BE194 /* Build configuration list for PBXNativeTarget "daka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E99B384E1F906BE5009BE194 /* Debug */,
+				E99B384F1F906BE5009BE194 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E99B38501F906BE5009BE194 /* Build configuration list for PBXNativeTarget "dakaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E99B38511F906BE5009BE194 /* Debug */,
+				E99B38521F906BE5009BE194 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E99B38531F906BE5009BE194 /* Build configuration list for PBXNativeTarget "dakaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E99B38541F906BE5009BE194 /* Debug */,
+				E99B38551F906BE5009BE194 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E99B38181F906BE4009BE194 /* Project object */;
+}

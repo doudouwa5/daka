@@ -1,0 +1,6 @@
+framework module Pods_daka {
+  umbrella header "Pods-daka-umbrella.h"
+
+  export *
+  module * { export * }
+}
