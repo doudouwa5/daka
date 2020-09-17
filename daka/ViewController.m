@@ -44,28 +44,28 @@
     bt.frame = CGRectMake(40, CGRectGetMaxY(_textF.frame)+50, [UIScreen mainScreen].bounds.size.width -80, 50);
     [bt addTarget:self action:@selector(GoToBeMerchant) forControlEvents:UIControlEventTouchUpInside];
     [bt setBackgroundColor:[UIColor redColor]];
-    [bt setTitle:@"返回BBL" forState:UIControlStateNormal];
+    [bt setTitle:@"去高德看看吧" forState:UIControlStateNormal];
     [self.view addSubview:bt];
     
     _label1 = [[UILabel alloc]initWithFrame:CGRectMake(([UIScreen mainScreen].bounds.size.width - 100)/2, CGRectGetMaxY(bt.frame)+50+120, 100, 30)];
     _label1.textAlignment = NSTextAlignmentCenter;
     [self.view addSubview:_label1];
     
-    UIImageView *image = [[UIImageView alloc] initWithFrame:CGRectMake(([UIScreen mainScreen].bounds.size.width - 100)/2, CGRectGetMaxY(bt.frame)+50, 100, 100)];
-    image.backgroundColor = [UIColor yellowColor];
-    [image sd_setImageWithURL:[NSURL URLWithString:@"https://imgbemerng.bangkokbank.com/cdn2local/op_upload/127/146785959971.jpg"] placeholderImage:nil options:SDWebImageRetryFailed context:nil progress:^(NSInteger receivedSize, NSInteger expectedSize, NSURL * _Nullable targetURL) {
-        NSLog(@"receivedSize:%ld  expectedSize:%ld",(long)receivedSize,(long)expectedSize);
-        
-        [[NSOperationQueue mainQueue] addOperationWithBlock:^{
-            // UI更新代码
-            self->_label1.text = [NSString stringWithFormat:@"%f", ((CGFloat)receivedSize / expectedSize)];
-        }];
-        
-    } completed:^(UIImage * _Nullable image, NSError * _Nullable error, SDImageCacheType cacheType, NSURL * _Nullable imageURL) {
-        
-    }];
-
-    [self.view addSubview:image];
+//    UIImageView *image = [[UIImageView alloc] initWithFrame:CGRectMake(([UIScreen mainScreen].bounds.size.width - 100)/2, CGRectGetMaxY(bt.frame)+50, 100, 100)];
+//    image.backgroundColor = [UIColor yellowColor];
+//    [image sd_setImageWithURL:[NSURL URLWithString:@"https://imgbemerng.bangkokbank.com/cdn2local/op_upload/127/146785959971.jpg"] placeholderImage:nil options:SDWebImageRetryFailed context:nil progress:^(NSInteger receivedSize, NSInteger expectedSize, NSURL * _Nullable targetURL) {
+//        NSLog(@"receivedSize:%ld  expectedSize:%ld",(long)receivedSize,(long)expectedSize);
+//
+//        [[NSOperationQueue mainQueue] addOperationWithBlock:^{
+//            // UI更新代码
+//            self->_label1.text = [NSString stringWithFormat:@"%f", ((CGFloat)receivedSize / expectedSize)];
+//        }];
+//
+//    } completed:^(UIImage * _Nullable image, NSError * _Nullable error, SDImageCacheType cacheType, NSURL * _Nullable imageURL) {
+//
+//    }];
+//
+//    [self.view addSubview:image];
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(getInfoFromBeMerchant:) name:@"getInfoFromBeMerchant" object:nil];
     
@@ -101,11 +101,22 @@
 
 -(void) GoToBeMerchant{
 #warning 跳转BBL
-    NSURL *url  = [NSURL URLWithString:@"BeMerchantFromMBanking://partner.BeMerchantAuthen?status=success"];
-    [[UIApplication sharedApplication] openURL:url options:@{} completionHandler:^(BOOL success) {
-
-    }];
-    return;
+//    NSURL *url  = [NSURL URLWithString:@"BeMerchantFromMBanking://partner.BeMerchantAuthen?status=success"];
+//    [[UIApplication sharedApplication] openURL:url options:@{} completionHandler:^(BOOL success) {
+//
+//    }];
+//    return;
+    
+    NSURL *scheme = [NSURL URLWithString:@"iosamap://"];
+    BOOL canOpen = [[UIApplication sharedApplication] canOpenURL:scheme];
+    if(canOpen){
+        NSURL *myLocationScheme = [NSURL URLWithString:@"iosamap://myLocation?sourceApplication=applicationName"]; if ([[UIDevice currentDevice].systemVersion integerValue] >= 10) { //iOS10以后,使用新API
+            [[UIApplication sharedApplication] openURL:myLocationScheme options:@{} completionHandler:^(BOOL success) { NSLog(@"scheme调用结束"); }];
+            
+        } else { //iOS10以前,使用旧API
+            [[UIApplication sharedApplication] openURL:myLocationScheme];
+        }
+    }
 }
 
 - (void)didReceiveMemoryWarning {

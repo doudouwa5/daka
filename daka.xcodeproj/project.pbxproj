@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82B0513A2513442600BD728C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82B051392513442600BD728C /* LaunchScreen.storyboard */; };
 		82DA290124A9A2A90075EA13 /* HDDNetworkClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DA290024A9A2A90075EA13 /* HDDNetworkClient.m */; };
 		AA8DB709636FC9E1E998F88B /* Pods_daka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9A7D548B85C947BE00385AF /* Pods_daka.framework */; };
 		B1C55C0F6036A52E4321B2B2 /* Pods_dakaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DECA1B849B4C1A6B6EBA01 /* Pods_dakaTests.framework */; };
@@ -15,7 +16,6 @@
 		E99B382B1F906BE4009BE194 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E99B382A1F906BE4009BE194 /* ViewController.m */; };
 		E99B382E1F906BE4009BE194 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E99B382C1F906BE4009BE194 /* Main.storyboard */; };
 		E99B38301F906BE4009BE194 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E99B382F1F906BE4009BE194 /* Assets.xcassets */; };
-		E99B38331F906BE4009BE194 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E99B38311F906BE4009BE194 /* LaunchScreen.storyboard */; };
 		E99B383E1F906BE5009BE194 /* dakaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E99B383D1F906BE5009BE194 /* dakaTests.m */; };
 		E99B38491F906BE5009BE194 /* dakaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E99B38481F906BE5009BE194 /* dakaUITests.m */; };
 		E99B38571F906BFC009BE194 /* the_location.gpx in Resources */ = {isa = PBXBuildFile; fileRef = E99B38561F906BFC009BE194 /* the_location.gpx */; };
@@ -46,13 +46,14 @@
 		66DECA1B849B4C1A6B6EBA01 /* Pods_dakaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dakaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B008B14D8501E9820A0DB04 /* Pods-daka.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-daka.debug.xcconfig"; path = "Target Support Files/Pods-daka/Pods-daka.debug.xcconfig"; sourceTree = "<group>"; };
 		7D1F6798020A744B892CA809 /* Pods-dakaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dakaTests.release.xcconfig"; path = "Target Support Files/Pods-dakaTests/Pods-dakaTests.release.xcconfig"; sourceTree = "<group>"; };
+		82B051392513442600BD728C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82DA28FF24A9A2A90075EA13 /* HDDNetworkClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDDNetworkClient.h; sourceTree = "<group>"; };
 		82DA290024A9A2A90075EA13 /* HDDNetworkClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDDNetworkClient.m; sourceTree = "<group>"; };
 		B68A6C9AE80D2AB72A0126F2 /* Pods-daka-dakaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-daka-dakaUITests.debug.xcconfig"; path = "Target Support Files/Pods-daka-dakaUITests/Pods-daka-dakaUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C9A7D548B85C947BE00385AF /* Pods_daka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_daka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D78B911058280B1131535BF9 /* Pods-daka-dakaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-daka-dakaUITests.release.xcconfig"; path = "Target Support Files/Pods-daka-dakaUITests/Pods-daka-dakaUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DEB62F62B5C668BCE7613FE4 /* Pods-daka.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-daka.release.xcconfig"; path = "Target Support Files/Pods-daka/Pods-daka.release.xcconfig"; sourceTree = "<group>"; };
-		E99B38201F906BE4009BE194 /* daka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = daka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E99B38201F906BE4009BE194 /* 豆豆荣耀.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "豆豆荣耀.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E99B38241F906BE4009BE194 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E99B38261F906BE4009BE194 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E99B38271F906BE4009BE194 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -60,7 +61,6 @@
 		E99B382A1F906BE4009BE194 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E99B382D1F906BE4009BE194 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E99B382F1F906BE4009BE194 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E99B38321F906BE4009BE194 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E99B38341F906BE4009BE194 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E99B38391F906BE5009BE194 /* dakaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dakaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E99B383D1F906BE5009BE194 /* dakaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dakaTests.m; sourceTree = "<group>"; };
@@ -148,7 +148,7 @@
 		E99B38211F906BE4009BE194 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E99B38201F906BE4009BE194 /* daka.app */,
+				E99B38201F906BE4009BE194 /* 豆豆荣耀.app */,
 				E99B38391F906BE5009BE194 /* dakaTests.xctest */,
 				E99B38441F906BE5009BE194 /* dakaUITests.xctest */,
 			);
@@ -175,8 +175,8 @@
 		E99B38231F906BE4009BE194 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				82B051392513442600BD728C /* LaunchScreen.storyboard */,
 				E99B382C1F906BE4009BE194 /* Main.storyboard */,
-				E99B38311F906BE4009BE194 /* LaunchScreen.storyboard */,
 				E99B38341F906BE4009BE194 /* Info.plist */,
 				E99B38241F906BE4009BE194 /* main.m */,
 			);
@@ -220,7 +220,7 @@
 			);
 			name = daka;
 			productName = daka;
-			productReference = E99B38201F906BE4009BE194 /* daka.app */;
+			productReference = E99B38201F906BE4009BE194 /* 豆豆荣耀.app */;
 			productType = "com.apple.product-type.application";
 		};
 		E99B38381F906BE5009BE194 /* dakaTests */ = {
@@ -316,8 +316,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E99B38331F906BE4009BE194 /* LaunchScreen.storyboard in Resources */,
 				E99B38301F906BE4009BE194 /* Assets.xcassets in Resources */,
+				82B0513A2513442600BD728C /* LaunchScreen.storyboard in Resources */,
 				E99B38571F906BFC009BE194 /* the_location.gpx in Resources */,
 				E99B382E1F906BE4009BE194 /* Main.storyboard in Resources */,
 			);
@@ -501,14 +501,6 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		E99B38311F906BE4009BE194 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E99B38321F906BE4009BE194 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -625,6 +617,7 @@
 			baseConfigurationReference = 7B008B14D8501E9820A0DB04 /* Pods-daka.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6XX8659PN2;
@@ -632,7 +625,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yjoo.testDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "豆豆荣耀";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
@@ -643,6 +636,7 @@
 			baseConfigurationReference = DEB62F62B5C668BCE7613FE4 /* Pods-daka.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6XX8659PN2;
@@ -650,7 +644,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yjoo.testDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "豆豆荣耀";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};

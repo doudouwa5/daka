@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E99B381F1F906BE4009BE194"
-               BuildableName = "daka.app"
+               BuildableName = "&#x8c46;&#x8c46;&#x8363;&#x8000;.app"
                BlueprintName = "daka"
                ReferencedContainer = "container:daka.xcodeproj">
             </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E99B381F1F906BE4009BE194"
-            BuildableName = "daka.app"
+            BuildableName = "&#x8c46;&#x8c46;&#x8363;&#x8000;.app"
             BlueprintName = "daka"
             ReferencedContainer = "container:daka.xcodeproj">
          </BuildableReference>
@@ -86,7 +86,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E99B381F1F906BE4009BE194"
-            BuildableName = "daka.app"
+            BuildableName = "&#x8c46;&#x8c46;&#x8363;&#x8000;.app"
             BlueprintName = "daka"
             ReferencedContainer = "container:daka.xcodeproj">
          </BuildableReference>
