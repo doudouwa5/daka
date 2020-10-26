@@ -21,9 +21,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
-    NSString *idfv = [[[UIDevice currentDevice] identifierForVendor] UUIDString];
-
     // Do any additional setup after loading the view, typically from a nib.
     UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(20, 100, [UIScreen mainScreen].bounds.size.width - 40, 120)];
     label.text = @"重启会失效，有些操作也可能导致位置还原，具体操作现在还不清楚，一般不出意外能坚持两天以上吧。\n\n失效后只能在xcode上重新编译";
@@ -50,25 +47,7 @@
     _label1 = [[UILabel alloc]initWithFrame:CGRectMake(([UIScreen mainScreen].bounds.size.width - 100)/2, CGRectGetMaxY(bt.frame)+50+120, 100, 30)];
     _label1.textAlignment = NSTextAlignmentCenter;
     [self.view addSubview:_label1];
-    
-//    UIImageView *image = [[UIImageView alloc] initWithFrame:CGRectMake(([UIScreen mainScreen].bounds.size.width - 100)/2, CGRectGetMaxY(bt.frame)+50, 100, 100)];
-//    image.backgroundColor = [UIColor yellowColor];
-//    [image sd_setImageWithURL:[NSURL URLWithString:@"https://imgbemerng.bangkokbank.com/cdn2local/op_upload/127/146785959971.jpg"] placeholderImage:nil options:SDWebImageRetryFailed context:nil progress:^(NSInteger receivedSize, NSInteger expectedSize, NSURL * _Nullable targetURL) {
-//        NSLog(@"receivedSize:%ld  expectedSize:%ld",(long)receivedSize,(long)expectedSize);
-//
-//        [[NSOperationQueue mainQueue] addOperationWithBlock:^{
-//            // UI更新代码
-//            self->_label1.text = [NSString stringWithFormat:@"%f", ((CGFloat)receivedSize / expectedSize)];
-//        }];
-//
-//    } completed:^(UIImage * _Nullable image, NSError * _Nullable error, SDImageCacheType cacheType, NSURL * _Nullable imageURL) {
-//
-//    }];
-//
-//    [self.view addSubview:image];
-    
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(getInfoFromBeMerchant:) name:@"getInfoFromBeMerchant" object:nil];
-    
+
     
     HDDNetworkClient *client = [HDDNetworkClient HTTPSessionManagerWithAPIType:HDDSERVICE_DEFAULT];
     [client GET:@"test.json" parameters:nil progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
@@ -100,13 +79,6 @@
 }
 
 -(void) GoToBeMerchant{
-#warning 跳转BBL
-//    NSURL *url  = [NSURL URLWithString:@"BeMerchantFromMBanking://partner.BeMerchantAuthen?status=success"];
-//    [[UIApplication sharedApplication] openURL:url options:@{} completionHandler:^(BOOL success) {
-//
-//    }];
-//    return;
-    
     NSURL *scheme = [NSURL URLWithString:@"iosamap://"];
     BOOL canOpen = [[UIApplication sharedApplication] canOpenURL:scheme];
     if(canOpen){

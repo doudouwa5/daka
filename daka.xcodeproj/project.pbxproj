@@ -624,7 +624,7 @@
 				INFOPLIST_FILE = daka/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yjoo.testDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haojinent.BeMerchant;
 				PRODUCT_NAME = "豆豆荣耀";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -643,7 +643,7 @@
 				INFOPLIST_FILE = daka/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yjoo.testDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haojinent.BeMerchant;
 				PRODUCT_NAME = "豆豆荣耀";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
